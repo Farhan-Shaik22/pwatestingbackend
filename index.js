@@ -13,7 +13,7 @@ webpush.setVapidDetails(
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors({ origin: ['https://localhost:443','http://localhost:3000','https://localhost','https://192.168.29.48:443','https://192.168.29.48','https://192.168.29.48:3000'] })); // Allow your frontend's origin
+app.use(cors({ origin: ['https://localhost:443','http://localhost:3000','https://localhost','https://pwatestingfrontend.vercel.app/','https://192.168.29.48','https://192.168.29.48:3000'] })); // Allow your frontend's origin
 // Store subscriptions in memory for simplicity
 let subscriptions = [];
 
